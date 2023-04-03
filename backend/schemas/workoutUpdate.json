@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "nickname": {
+            "type": "string",
+            "title": "The nickname Schema"
+        },
+        "equipment": {
+            "type": "string",
+            "title": "The equipment Schema"
+        },
+        "split": {
+            "type": "string",
+            "title": "The split Schema"
+        },
+        "frequency": {
+            "type": "integer",
+            "title": "The frequency Schema"
+        },
+        "chest": {
+            "type": "integer",
+            "title": "The chest Schema"
+        },
+        "back": {
+            "type": "integer",
+            "title": "The back Schema"
+        },
+        "shoulders": {
+            "type": "integer",
+            "title": "The shoulders Schema"
+        },
+        "biceps": {
+            "type": "integer",
+            "title": "The biceps Schema"
+        },
+        "triceps": {
+            "type": "integer",
+            "title": "The triceps Schema"
+        },
+        "quads": {
+            "type": "integer",
+            "title": "The quads Schema"
+        },
+        "hamstrings": {
+            "type": "integer",
+            "title": "The hamstrings Schema"
+        },
+        "calves": {
+            "type": "integer",
+            "title": "The calves Schema"
+        },
+        "abs": {
+            "type": "integer",
+            "title": "The abs Schema"
+        }
+    }
+}

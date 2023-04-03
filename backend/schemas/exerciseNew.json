@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "required": ["bodyPart, equipment, gifUrl, id, name, target"],
+    "properties": {
+        "bodyPart": {
+            "type": "string",
+            "title": "The nickname Schema"
+        },
+        "equipment": {
+            "type": "string",
+            "title": "The equipment Schema"
+        },
+        "gifUrl": {
+            "type": "string",
+            "title": "The split Schema"
+        },
+        "id": {
+            "type": "integer",
+            "title": "The frequency Schema"
+        },
+        "name": {
+            "type": "integer",
+            "title": "The frequency Schema"
+        },
+        "target": {
+            "type": "integer",
+            "title": "The frequency Schema"
+        }
+    }
+}

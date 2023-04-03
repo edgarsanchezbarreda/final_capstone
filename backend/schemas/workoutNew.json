@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "required": ["nickname", "equipment", "split", "frequency"],
+    "properties": {
+        "nickname": {
+            "type": "string",
+            "title": "The nickname Schema"
+        },
+        "equipment": {
+            "type": "string",
+            "title": "The equipment Schema"
+        },
+        "split": {
+            "type": "string",
+            "title": "The split Schema"
+        },
+        "frequency": {
+            "type": "integer",
+            "title": "The frequency Schema"
+        }
+    }
+}
